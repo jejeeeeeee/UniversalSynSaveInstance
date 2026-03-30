@@ -1711,7 +1711,7 @@ do
 				end
 				break
 			elseif r ~= false and 2 < i then
-				warn("[RipSave] Failed to fetch API dump (method " .. i .. "):", r)
+				warn("[USSI] Failed to fetch API dump (method " .. i .. "):", r)
 			end
 		end
 

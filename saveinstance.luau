@@ -1891,7 +1891,7 @@ local function ripsave(CustomOptions, CustomOptions2)
 
 	local currentstr, currentsize, totalsize, chunks = "", 0, 0, table.create(1)
 	local savebuffer, savebuffer_size = {}, 1
-	local header = '<!-- Saved by RipSave https://discord.gg/wx4ThpAsmw --><roblox version="4">'
+	local header = '<!-- Saved by USSI Ripoff --><roblox version="4">'
 
 	local StatusText
 

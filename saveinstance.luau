@@ -1865,14 +1865,14 @@ end
 local GLOBAL_ENV = getgenv and getgenv() or _G or shared
 
 --[=[
-	@class RipSave
-	RipSave — a clean, rebranded saveinstance with improved decompiler output.
+	@class USSI
+	USSI — a clean, rebranded saveinstance with improved decompiler output.
 	Original USSI codebase, extended with CleanDecompiledSource post-processing.
 
 	Usage:
 	```lua
-	local ripsave = loadstring(game:HttpGet("YOUR_URL_HERE"))()
-	ripsave({ SafeMode = true, timeout = 15, SaveBytecode = true })
+	local USSI = loadstring(game:HttpGet("YOUR_URL_HERE"))()
+	USSI({ SafeMode = true, timeout = 15, SaveBytecode = true })
 	```
 ]=]
 
